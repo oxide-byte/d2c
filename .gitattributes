@@ -1,0 +1,3 @@
+# Samples
+d2c-agents/** linguist-vendored
+*.js linguist-vendored

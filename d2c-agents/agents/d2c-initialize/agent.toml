@@ -1,0 +1,10 @@
+name = "d2c-initialize"
+version = "0.1.0"
+description = "Scaffold a new project from d2c-sample focusing on docs: creates book.toml, mermaid and doc placeholders."
+
+[template]
+source = "../d2c-sample"
+files = ["book.toml","mermaid.md","doc.md"]
+
+[execution]
+script = "./init.sh"
