@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "d2c-core",
+    "d2c-sample"
+]
+resolver = "2"

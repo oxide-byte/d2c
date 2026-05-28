@@ -1,0 +1,15 @@
+[book]
+title = "Rust D2C"
+authors = ["oxide-byte"]
+language = "en"
+
+src="doc"
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[build]
+build-dir = "../docs"
+
+[output.html]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
